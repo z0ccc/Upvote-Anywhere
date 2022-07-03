@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Upvote-Anywhere/static/css/main.5ea4f6c2.css",
-    "main.js": "/Upvote-Anywhere/static/js/main.85922bcb.js",
-    "static/js/787.bef8a106.chunk.js": "/Upvote-Anywhere/static/js/787.bef8a106.chunk.js",
-    "static/media/upvoteAnywhere.mp4": "/Upvote-Anywhere/static/media/upvoteAnywhere.bed44798de6a85131a0c.mp4",
-    "static/media/firefox.png": "/Upvote-Anywhere/static/media/firefox.5a7f8a9316da3c334df4.png",
-    "static/media/chrome.png": "/Upvote-Anywhere/static/media/chrome.fabafafa1fd85892b630.png",
-    "static/media/github.png": "/Upvote-Anywhere/static/media/github.f69bf80e738b72aeb3ca.png",
-    "index.html": "/Upvote-Anywhere/index.html",
-    "main.5ea4f6c2.css.map": "/Upvote-Anywhere/static/css/main.5ea4f6c2.css.map",
-    "main.85922bcb.js.map": "/Upvote-Anywhere/static/js/main.85922bcb.js.map",
-    "787.bef8a106.chunk.js.map": "/Upvote-Anywhere/static/js/787.bef8a106.chunk.js.map"
+    "main.css": "/static/css/main.5ea4f6c2.css",
+    "main.js": "/static/js/main.6889e352.js",
+    "static/js/787.bef8a106.chunk.js": "/static/js/787.bef8a106.chunk.js",
+    "static/media/upvoteAnywhere.mp4": "/static/media/upvoteAnywhere.bed44798de6a85131a0c.mp4",
+    "static/media/firefox.png": "/static/media/firefox.5a7f8a9316da3c334df4.png",
+    "static/media/chrome.png": "/static/media/chrome.fabafafa1fd85892b630.png",
+    "static/media/github.png": "/static/media/github.f69bf80e738b72aeb3ca.png",
+    "index.html": "/index.html",
+    "main.5ea4f6c2.css.map": "/static/css/main.5ea4f6c2.css.map",
+    "main.6889e352.js.map": "/static/js/main.6889e352.js.map",
+    "787.bef8a106.chunk.js.map": "/static/js/787.bef8a106.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ea4f6c2.css",
-    "static/js/main.85922bcb.js"
+    "static/js/main.6889e352.js"
   ]
 }
