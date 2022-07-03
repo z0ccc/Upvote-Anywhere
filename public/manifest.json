@@ -1,58 +1,25 @@
 {
+  "short_name": "Upvote Anywhere",
   "name": "Upvote Anywhere",
-  "description": "View Reddit comments on YouTube or any webpage.",
-  "version": "2.2.3",
-  "manifest_version": 3,
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
+  "icons": [
     {
-      "matches": [
-        "*://*.youtube.com/*"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "run_at": "document_end"
-    }
-  ],
-  "permissions": [
-    "storage",
-    "tabs"
-  ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/logo_16.png",
-      "32": "images/logo_32.png",
-      "48": "images/logo_48.png",
-      "128": "images/logo_128.png"
-    }
-  },
-  "icons": {
-    "16": "images/logo_16.png",
-    "32": "images/logo_32.png",
-    "48": "images/logo_48.png",
-    "128": "images/logo_128.png"
-  },
-  "web_accessible_resources": [
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
     {
-      "resources": [
-        "images/youtube_32.png",
-        "images/reddit_32.png"
-      ],
-      "matches": [
-        "*://*.youtube.com/*"
-      ],
-      "extension_ids": []
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": false
-  },
-  "host_permissions": [
-    "*://*.reddit.com/*"
-  ]
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }

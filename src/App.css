@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.subTitle {
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+a {
+  all: unset;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 18px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid #6f7378;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+.buttonImg {
+  margin-right: 8px;
+  height: 28px;
+  width: 28px;
+}
+
+video {
+  border: 1px solid #ddd;
+  width: 1024px;
+  height: 576px;
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    margin: 0 6px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .subTitle {
+    font-size: 14px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
